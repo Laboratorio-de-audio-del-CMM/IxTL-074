@@ -1,6 +1,6 @@
 # IxTL-074
 
-El IxTL-074 es un sintetizador DIY semimodular de frecuencia modulada desarrollado en el Laboratorio de Experimentación Sonora del Centro Multimedia entre agosto y octubre del 2026. Se compone de cuatro osciladores de onda cuadrada especializados en distintas frecuencias:
+El IxTL-074 es un sintetizador DIY *semimodular* de frecuencia modulada desarrollado en el Laboratorio de Experimentación Sonora del Centro Multimedia entre agosto y octubre del 2026. Se compone de cuatro osciladores de onda cuadrada *Cada uno con un rango de oscilación dedicado * especializados en distintas frecuencias: * Con la capacidad de operar como señal portadora y moduladora simultaneamente*
 
 * Oscilador 1: 1.7 - 140 Hz aproximadamente
 * Oscilador 2: 6.5 - 463 Hz aproximadamente
@@ -9,9 +9,11 @@ El IxTL-074 es un sintetizador DIY semimodular de frecuencia modulada desarrolla
 
 La frecuencia y amplitud de cada oscilador puede ser controlada mediante las perillas señaladas en la placa como "frec" y "amp".
 
+*Tanto la frecuencia como la amplitud son determinadas por un control dedicado, la frecuencia puede a su vez ser controlada por un modlador *
+
 Cada oscilador cuenta con:
 * Tres salidas: 
-
+*Que pueden funcionar como salida de audio al conectarse a la mezcladora integrada, o como salida de modulación*
     Correspondientes a la frecuencia y a la amplitud establecida con las perillas. Pueden usarse como: 
     * salidas de audio (cuando se conectan a la mezcladora)
     * frecuencias de modulación [^1] (cuando se conectan a las entradas de otro oscilador, o a su propia entrada)
@@ -22,9 +24,9 @@ Cada oscilador cuenta con:
 
 Las conxiones entre salidas y entradas y mezcladora se establecen utilizando cables puente con puntas macho (también conocidos como cables "jumpers" o DuPont).
 
-El sinteizador funciona con una fuente de alimentación de 9v conectada a un barril jack de 5.5mm x 2.1mm con punta positiva. 
+El sinteizador funciona con una fuente de alimentación de 9v *conectada a un barril jack de 5.5mm x 2.1mm con punta positiva. *
 
-Es un sintetizador monofónico (todo suena en un solo canal) pero posee salida de audio estéreo (duplicando la señal mono) por medio de un conector jack hembra de 3.5 mm
+Es un sintetizador monofónico *(todo suena en un solo canal)* pero posee salida de audio estéreo (duplicando la señal mono) por medio de un conector *jack hembra de 3.5 mm*
 
 El nombre del sintetizador proviene de un juego de palabras derivado del nombre de la fibra vegetal extraida de algunas especies de maguey (Ixtle[^2]) y uno de los componentes del sintetizador (el amplificador operacional TL-074). Busca trazar un paralelismo entre el tejido material de fibras orgánicas y al sonido derivado de las interconecciones entre operadores de la síntesis FM. 
 

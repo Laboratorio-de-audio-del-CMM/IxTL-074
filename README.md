@@ -66,7 +66,7 @@ La lista completa de materiales necesarios para la construcción del IxTL-074 es
     * Barril jack de 5.5mm x 2.1mm
     * Fuente de alimentación de 9v con salida jack de punta positiva de 5.5mm x 2.1mm (se recomienda una pila de 9v con un broche)
 
-Los headers pueden sustituirse con una tira larga (que usualmente es más facl de conseguir) y ser recortados posteriormente. 
+Los headers pueden sustituirse con una tira larga (que usualmente es más fácil de conseguir) y ser recortados posteriormente. 
 
 El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
 
@@ -84,21 +84,13 @@ El repositorio posee dos carpetas de apoyo a la documentación:
 
 # Créditos  
 
-* Investigación, desarrollo y diseño de tarjeta de circuito impreso: Francisco Ibrahim :shipit:
-* Investigación, asesoramiento y sentido común: Gonzalo T. Alonso 
+* Investigación, desarrollo y diseño de tarjeta de circuito impreso: Francisco Ibrahim :shipit:, colaborador del Laboratorio de Experimentación sonora.
+* Investigación, asesoramiento y supervisión: Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora. 
 
 #### **Agradecimientos**
 * Centro Multimedia
-* Juan Galindo 
+* Juan Galindo, Laboratorio de Robótica y Sistemas Complejos 
 * Productores cafetaleros de Veracruz
-
-# Contribuciones  
-
-Se procuró mantener
-
-# Licencia
-
-
 
 [^1]: Variación de frecuencia a la velocidad del oscilador modulante.  
 [^2]: Más información sobre el Ixtle y su uso en el Valle del Mezquital: https://tesiunamdocumentos.dgb.unam.mx/ptd2013/octubre/0702151/Index.html

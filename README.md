@@ -70,17 +70,8 @@ Los headers pueden sustituirse con una tira larga (que usualmente es más fácil
 
 El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
 
-# Carpetas
-El repositorio posee dos carpetas de apoyo a la documentación:
-
-1. Esquemático:
-
-    Contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad .kicad_sch
-
-2. Funcionamiento 
-    
-    Contiene una descripción detallada de por qué el sintetizador se comporta como se comporta a nivel electrónico. 
-
+# Apoyo a la documentación 
+El repositorio posee una carpeta titualada "Esquemático" que contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad .kicad_sch
 
 # Créditos  
 
@@ -89,7 +80,8 @@ El repositorio posee dos carpetas de apoyo a la documentación:
 
 #### **Agradecimientos**
 * Centro Multimedia
-* Juan Galindo, Laboratorio de Robótica y Sistemas Complejos 
+* Juan Galindo, Jefe del Laboratorio de Robótica y Sistemas Complejos 
+* [Proyecto KiCad](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
 * Productores cafetaleros de Veracruz
 
 [^1]: Variación de frecuencia a la velocidad del oscilador modulante.  

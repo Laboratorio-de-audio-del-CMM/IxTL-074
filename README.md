@@ -111,7 +111,7 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 * [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
 * Productores cafetaleros de Veracruz.
 
-# Documentos consultados
+# Documentación consultada
 * Collins N. (2020). Handmade electronic music. New York: Routledge Taylor & Francis Group.
 * Electro-Music. (s. f.). Simple 40106 oscillator with diode-based CV input [Archivo PDF]. https://electro-music.com/forum/phpbb-files/rmr_001__simple_40106_oscillator_with_diode_based_cv_input_905.pdf
 * Evil Turtle Productions. (s. f.). Analog FM Drone/Kick Synth. https://www.evilturtle.nl/projects/fm-drone-synth

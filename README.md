@@ -76,27 +76,15 @@ Los headers pueden sustituirse con una tira larga (que usualmente es más fácil
 El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
 
 # Apoyo a la documentación 
-El repositorio posee dos carpetas de apoyo a la documentación:
+El repositorio posee una carpeta y un archivo adicional de apoyo a la documentación:
 
-1. Esquemático:
+1. Carpeta _**Esquemático**_:
 
     Contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad .kicad_sch
 
-2. Funcionamiento
+2. Archivo _**Diseño.md**_
 
     Contiene una descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
-
-# Licencia
-En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hadware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
-
-* **Libertad de uso y fabricación:** Tienes libertad para copiar, modificar y distribuir los archivos de diseño, así como para fabricar, ensamblar y vender productos físicos basados en ellos.
-* **Reciprocidad fuerte (Copyleft fuerte):** Si modificas los archivos de diseño o distribuyes productos físicos creados a partir de ellos, estás obligado a liberar todo el diseño derivado bajo esta misma licencia (CERN-OHL-S v2).
-* **Disponibilidad del código fuente:** Debes facilitar a los receptores el acceso al código fuente completo (archivos de diseño, esquemáticos, CAD) o indicar claramente la ubicación digital donde puedan descargarlo.
-* **Atribución y registro de cambios:** Es obligatorio conservar los avisos de derechos de autor originales y añadir una nota indicando la fecha y una breve descripción de las modificaciones que hayas realizado.
-* **Licencia de patentes:** Incluye una concesión de patentes perpetua y sin regalías para fabricar y vender el hardware. Esta concesión se revoca automáticamente si alguien inicia un litigio de patentes contra el proyecto.
-* **Sin garantía:** El diseño y los objetos creados se proporcionan "tal cual" (*as is*), sin garantías de funcionamiento o comercialización, y sin responsabilidad legal para los creadores originales.
-
-Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LICENCE) en este repositorio.
 
 # Créditos  
 
@@ -119,6 +107,18 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 * Klein, M., & Erica Synths. (2021). mki x es.edu VCO manual [Archivo PDF]. Erica Synths.
 * Lis A. (2022). 40106 dual oscillator. SFCS: Synthfox Custom Stuff. https://sfcs.neocities.org/module/SFP21/
 * Williams, E. (2015). Logic noise: Sweet, sweet oscillator sounds. Hackaday. https://hackaday.com/2015/02/04/logic-noise-sweet-sweet-oscillator-sounds/
+
+# Licencia
+En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hadware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
+
+* **Libertad de uso y fabricación:** Tienes libertad para copiar, modificar y distribuir los archivos de diseño, así como para fabricar, ensamblar y vender productos físicos basados en ellos.
+* **Reciprocidad fuerte (Copyleft fuerte):** Si modificas los archivos de diseño o distribuyes productos físicos creados a partir de ellos, estás obligado a liberar todo el diseño derivado bajo esta misma licencia (CERN-OHL-S v2).
+* **Disponibilidad del código fuente:** Debes facilitar a los receptores el acceso al código fuente completo (archivos de diseño, esquemáticos, CAD) o indicar claramente la ubicación digital donde puedan descargarlo.
+* **Atribución y registro de cambios:** Es obligatorio conservar los avisos de derechos de autor originales y añadir una nota indicando la fecha y una breve descripción de las modificaciones que hayas realizado.
+* **Licencia de patentes:** Incluye una concesión de patentes perpetua y sin regalías para fabricar y vender el hardware. Esta concesión se revoca automáticamente si alguien inicia un litigio de patentes contra el proyecto.
+* **Sin garantía:** El diseño y los objetos creados se proporcionan "tal cual" (*as is*), sin garantías de funcionamiento o comercialización, y sin responsabilidad legal para los creadores originales.
+
+Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LICENCE) en este repositorio.
 
 
 [^1]: Más información sobre el Ixtle y su uso en el Valle del Mezquital: https://tesiunamdocumentos.dgb.unam.mx/ptd2013/octubre/0702151/Index.html

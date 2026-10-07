@@ -86,19 +86,6 @@ El repositorio posee una carpeta y un archivo adicional de apoyo a la documentac
 
     Contiene una descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
 
-# Créditos  
-
-* #### Investigación, desarrollo y diseño de tarjeta de circuito impreso:
-    Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
-* #### Investigación, asesoramiento y supervisión: 
-    Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora. 
-
-### Agradecimientos
-* **Centro Multimedia** del Centro Nacional de las Artes.
-* **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
-* [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
-* Productores cafetaleros de Veracruz.
-
 # Licencia
 En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hadware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
 
@@ -111,6 +98,18 @@ En concordancia a los valores del conocimiento abierto, que promueven un acceso 
 
 Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LICENCE) en este repositorio.
 
+# Créditos
+
+* #### Investigación, desarrollo y diseño de tarjeta de circuito impreso:
+    Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
+* #### Investigación, asesoramiento y supervisión: 
+    Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora. 
+
+### Agradecimientos
+* **Centro Multimedia** del Centro Nacional de las Artes.
+* **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
+* [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
+* Productores cafetaleros de Veracruz.
 
 # Documentos consultados
 * Collins N. (2020). Handmade electronic music. New York: Routledge Taylor & Francis Group.

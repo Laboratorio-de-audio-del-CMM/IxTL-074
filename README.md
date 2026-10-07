@@ -1,34 +1,37 @@
 # IxTL-074
 
-El IxTL-074 es un sintetizador DIY *semimodular* de frecuencia modulada desarrollado en el Laboratorio de Experimentación Sonora del Centro Multimedia entre agosto y octubre del 2026. Se compone de cuatro osciladores de onda cuadrada *Cada uno con un rango de oscilación dedicado * especializados en distintas frecuencias: * Con la capacidad de operar como señal portadora y moduladora simultaneamente*
+El IxTL-074 es un sintetizador DIY de frecuencia modulada (FM) desarrollado en el Laboratorio de Experimentación Sonora del Centro Multimedia entre agosto y octubre del 2026.
 
-* Oscilador 1: 1.7 - 140 Hz aproximadamente
-* Oscilador 2: 6.5 - 463 Hz aproximadamente
-* Oscilador 3: 137 - 2266 Hz aproximadamente 
-* Oscilador 4: 147 - 5848 Hz aproximadamente
+Su nombre proviene de un juego de palabras derivado del nombre de la fibra vegetal extraida de algunas especies de maguey (Ixtle[^1]) y uno de los componentes del sintetizador (el amplificador operacional TL-074). Busca trazar un paralelismo entre el tejido material de fibras vegetales y el sonido derivado de las interconecciones entre operadores de la síntesis FM.
 
-La frecuencia y amplitud de cada oscilador puede ser controlada mediante las perillas señaladas en la placa como "frec" y "amp".
+# Funcionamiento
+El IxTL-074 se compone de cuatro osciladores de onda cuadrada, cada uno con un rango de oscilación dedicado:
 
-*Tanto la frecuencia como la amplitud son determinadas por un control dedicado, la frecuencia puede a su vez ser controlada por un modlador *
+* **Oscilador 1:** 1.7 - 140 Hz aproximadamente
+* **Oscilador 2:** 6.5 - 463 Hz aproximadamente
+* **Oscilador 3:** 137 - 2266 Hz aproximadamente
+* **Oscilador 4:** 147 - 5848 Hz aproximadamente
+
+La frecuencia y amplitud de cada oscilador son determinadas por controles dedicados. La frecuencia puede ser variada mediante una señal moduladora [^2].
 
 Cada oscilador cuenta con:
 * Tres salidas: 
-*Que pueden funcionar como salida de audio al conectarse a la mezcladora integrada, o como salida de modulación*
-    Correspondientes a la frecuencia y a la amplitud establecida con las perillas. Pueden usarse como: 
-    * salidas de audio (cuando se conectan a la mezcladora)
-    * frecuencias de modulación [^1] (cuando se conectan a las entradas de otro oscilador, o a su propia entrada)
+    
+    Correspondientes a la frecuencia y a la amplitud establecida con los controles dedicados. Cada salida pueden funcionar como:
+    * señal de audio, al conectarse a la mezcladora integrada
+    * señal moduladora, al conectarse a las entradas de otro oscilador, o a su propia entrada
 
 * Tres entradas
 
-    Receptoras de las ondas que modularán la frecuencia base del oscilador
+    Receptoras de señales moduladoras que deriavarán en variaciones de frecuencia de las señales portadoras.
 
-Las conxiones entre salidas y entradas y mezcladora se establecen utilizando cables puente con puntas macho (también conocidos como cables "jumpers" o DuPont).
+Cada oscilador tiene la capacidad de operar como señal portadora y moduladora simultaneamente.
 
-El sinteizador funciona con una fuente de alimentación de 9v *conectada a un barril jack de 5.5mm x 2.1mm con punta positiva. *
+Las conxiones entre salidas, entradas y mezcladora se establecen utilizando cables puente con puntas macho (también conocidos como "jumpers" o cables DuPont).
 
-Es un sintetizador monofónico *(todo suena en un solo canal)* pero posee salida de audio estéreo (duplicando la señal mono) por medio de un conector *jack hembra de 3.5 mm*
+El sintetizador funciona con una fuente de alimentación de 9v con punta positiva.
 
-El nombre del sintetizador proviene de un juego de palabras derivado del nombre de la fibra vegetal extraida de algunas especies de maguey (Ixtle[^2]) y uno de los componentes del sintetizador (el amplificador operacional TL-074). Busca trazar un paralelismo entre el tejido material de fibras orgánicas y al sonido derivado de las interconecciones entre operadores de la síntesis FM. 
+La salida de audio integrada duplica una señal monofónica de audio (doble mono).
 
 # Lista de materiales
 
@@ -64,27 +67,58 @@ La lista completa de materiales necesarios para la construcción del IxTL-074 es
     * Header hembra de 2x2 x1
     * Headers hembra de 2x3 x4
     * Switch SPDT x1
-    * Conector jack de 3.5mm SJ1-3515
+    * Conector jack hembra de 3.5mm SJ1-3515 x1
     * Barril jack de 5.5mm x 2.1mm
-    * Fuente de alimentación de 9v con salida jack de punta positiva de 5.5mm x 2.1mm (se recomienda una pila de 9v con un broche)
+    * Fuente de alimentación de 9v con salida jack de punta positiva de 5.5mm x 2.1mm (se recomienda una pila de 9v con broche)
 
 Los headers pueden sustituirse con una tira larga (que usualmente es más fácil de conseguir) y ser recortados posteriormente. 
 
 El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
 
 # Apoyo a la documentación 
-El repositorio posee una carpeta titualada "Esquemático" que contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad .kicad_sch
+El repositorio posee dos carpetas de apoyo a la documentación:
+
+1. Esquemático:
+
+    Contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad .kicad_sch
+
+2. Funcionamiento
+
+    Contiene una descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
 
 # Créditos  
 
-* Investigación, desarrollo y diseño de tarjeta de circuito impreso: Francisco Ibrahim :shipit:, colaborador del Laboratorio de Experimentación sonora.
-* Investigación, asesoramiento y supervisión: Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora. 
+* #### Investigación, desarrollo y diseño de tarjeta de circuito impreso:
+    Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
+* #### Investigación, asesoramiento y supervisión: 
+    Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora. 
 
-#### **Agradecimientos**
-* Centro Multimedia
-* Juan Galindo, Jefe del Laboratorio de Robótica y Sistemas Complejos 
-* [Proyecto KiCad](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
-* Productores cafetaleros de Veracruz
+### Documentos consultados
+* Collins N. (2020). Handmade electronic music. New York: Routledge Taylor & Francis Group.
+* Electro-Music. (s. f.). Simple 40106 oscillator with diode-based CV input [Archivo PDF]. https://electro-music.com/forum/phpbb-files/rmr_001__simple_40106_oscillator_with_diode_based_cv_input_905.pdf
+* Evil Turtle Productions. (s. f.). Analog FM Drone/Kick Synth. https://www.evilturtle.nl/projects/fm-drone-synth
+* Keim, R. (2020). Op-Amp Basics: Introduction to the Operational Amplifier. All About Circuits. https://www.allaboutcircuits.com/video-tutorials/op-amp-basics-introduction-to-the-operational-amplifier/
+* Klein, M., & Erica Synths. (2021). mki x es.edu VCO manual [Archivo PDF]. Erica Synths.
+* Lis A. (2022). 40106 dual oscillator. SFCS: Synthfox Custom Stuff. https://sfcs.neocities.org/module/SFP21/
+* Williams, E. (2015). Logic noise: Sweet, sweet oscillator sounds. Hackaday. https://hackaday.com/2015/02/04/logic-noise-sweet-sweet-oscillator-sounds/
 
-[^1]: Variación de frecuencia a la velocidad del oscilador modulante.  
-[^2]: Más información sobre el Ixtle y su uso en el Valle del Mezquital: https://tesiunamdocumentos.dgb.unam.mx/ptd2013/octubre/0702151/Index.html
+### Agradecimientos
+* **Centro Multimedia** del Centro Nacional de las Artes.
+* **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
+* [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
+* Productores cafetaleros de Veracruz.
+
+# Licencia
+En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hadware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
+
+* **Libertad de uso y fabricación:** Tienes libertad para copiar, modificar y distribuir los archivos de diseño, así como para fabricar, ensamblar y vender productos físicos basados en ellos.
+* **Reciprocidad fuerte (Copyleft fuerte):** Si modificas los archivos de diseño o distribuyes productos físicos creados a partir de ellos, estás obligado a liberar todo el diseño derivado bajo esta misma licencia (CERN-OHL-S v2).
+* **Disponibilidad del código fuente:** Debes facilitar a los receptores el acceso al código fuente completo (archivos de diseño, esquemáticos, CAD) o indicar claramente la ubicación digital donde puedan descargarlo.
+* **Atribución y registro de cambios:** Es obligatorio conservar los avisos de derechos de autor originales y añadir una nota indicando la fecha y una breve descripción de las modificaciones que hayas realizado.
+* **Licencia de patentes:** Incluye una concesión de patentes perpetua y sin regalías para fabricar y vender el hardware. Esta concesión se revoca automáticamente si alguien inicia un litigio de patentes contra el proyecto.
+* **Sin garantía:** El diseño y los objetos creados se proporcionan "tal cual" (*as is*), sin garantías de funcionamiento o comercialización, y sin responsabilidad legal para los creadores originales.
+
+Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LICENCE) en este repositorio.
+
+[^1]: Más información sobre el Ixtle y su uso en el Valle del Mezquital: https://tesiunamdocumentos.dgb.unam.mx/ptd2013/octubre/0702151/Index.html
+[^2]: La modulación de frecuencia es un método de síntesis sonora. Consiste en variar (modular) la frecuencia de una señal (denominada portadora) con respecto a una otra (denominada moduladora). El rango de la modulación de la frecuencia de la señal portadora será proporcional a la amplitud de la señal moduladora. La velocidad de la modulación de la frecuencia de la señal portadora será proporcional a la frecuencia de la señal moduladora.

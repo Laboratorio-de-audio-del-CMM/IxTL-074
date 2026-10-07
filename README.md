@@ -4,7 +4,7 @@ El IxTL-074 es un sintetizador DIY de frecuencia modulada (FM) desarrollado en e
 
 Su nombre proviene de un juego de palabras derivado del nombre de la fibra vegetal extraida de algunas especies de maguey (Ixtle[^1]) y uno de los componentes del sintetizador (el amplificador operacional TL-074). Busca trazar un paralelismo entre el tejido material de fibras vegetales y el sonido derivado de las interconecciones entre operadores de la síntesis FM.
 
-# Funcionamiento
+## Funcionamiento
 El IxTL-074 se compone de cuatro osciladores de onda cuadrada, cada uno con un rango de oscilación dedicado:
 
 * **Oscilador 1:** 1.7 - 140 Hz aproximadamente
@@ -33,7 +33,7 @@ El sintetizador funciona con una fuente de alimentación de 9v con punta positiv
 
 La salida de audio integrada duplica una señal monofónica de audio (doble mono).
 
-# Lista de materiales
+## Lista de materiales
 
 La lista completa de materiales necesarios para la construcción del IxTL-074 es:
 
@@ -75,7 +75,7 @@ Los headers pueden sustituirse con una tira larga (que usualmente es más fácil
 
 El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
 
-# Apoyo a la documentación 
+## Apoyo a la documentación 
 El repositorio posee una carpeta y un archivo adicional de apoyo a la documentación:
 
 1. Carpeta _**Esquemático**_:
@@ -86,7 +86,7 @@ El repositorio posee una carpeta y un archivo adicional de apoyo a la documentac
 
     Contiene una descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
 
-# Licencia
+## Licencia
 En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hadware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
 
 * **Libertad de uso y fabricación:** Tienes libertad para copiar, modificar y distribuir los archivos de diseño, así como para fabricar, ensamblar y vender productos físicos basados en ellos.
@@ -98,7 +98,7 @@ En concordancia a los valores del conocimiento abierto, que promueven un acceso 
 
 Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LICENCE) en este repositorio.
 
-# Créditos
+## Créditos
 
 * #### Investigación, desarrollo y diseño de tarjeta de circuito impreso:
     Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.

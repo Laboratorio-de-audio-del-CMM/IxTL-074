@@ -15,13 +15,13 @@ El IxTL-074 se compone de cuatro osciladores de onda cuadrada, cada uno con un r
 La frecuencia y amplitud de cada oscilador son determinadas por controles dedicados. La frecuencia puede ser variada mediante una señal moduladora [^2].
 
 Cada oscilador cuenta con:
-* Tres salidas: 
+* **Tres salidas:**
     
     Correspondientes a la frecuencia y a la amplitud establecida con los controles dedicados. Cada salida pueden funcionar como:
     * señal de audio, al conectarse a la mezcladora integrada
     * señal moduladora, al conectarse a las entradas de otro oscilador, o a su propia entrada
 
-* Tres entradas
+* **Tres entradas**
 
     Receptoras de señales moduladoras que deriavarán en variaciones de frecuencia de las señales portadoras.
 
@@ -99,15 +99,6 @@ El repositorio posee una carpeta y un archivo adicional de apoyo a la documentac
 * [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
 * Productores cafetaleros de Veracruz.
 
-# Documentos consultados
-* Collins N. (2020). Handmade electronic music. New York: Routledge Taylor & Francis Group.
-* Electro-Music. (s. f.). Simple 40106 oscillator with diode-based CV input [Archivo PDF]. https://electro-music.com/forum/phpbb-files/rmr_001__simple_40106_oscillator_with_diode_based_cv_input_905.pdf
-* Evil Turtle Productions. (s. f.). Analog FM Drone/Kick Synth. https://www.evilturtle.nl/projects/fm-drone-synth
-* Keim, R. (2020). Op-Amp Basics: Introduction to the Operational Amplifier. All About Circuits. https://www.allaboutcircuits.com/video-tutorials/op-amp-basics-introduction-to-the-operational-amplifier/
-* Klein, M., & Erica Synths. (2021). mki x es.edu VCO manual [Archivo PDF]. Erica Synths.
-* Lis A. (2022). 40106 dual oscillator. SFCS: Synthfox Custom Stuff. https://sfcs.neocities.org/module/SFP21/
-* Williams, E. (2015). Logic noise: Sweet, sweet oscillator sounds. Hackaday. https://hackaday.com/2015/02/04/logic-noise-sweet-sweet-oscillator-sounds/
-
 # Licencia
 En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hadware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
 
@@ -119,6 +110,16 @@ En concordancia a los valores del conocimiento abierto, que promueven un acceso 
 * **Sin garantía:** El diseño y los objetos creados se proporcionan "tal cual" (*as is*), sin garantías de funcionamiento o comercialización, y sin responsabilidad legal para los creadores originales.
 
 Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LICENCE) en este repositorio.
+
+
+# Documentos consultados
+* Collins N. (2020). Handmade electronic music. New York: Routledge Taylor & Francis Group.
+* Electro-Music. (s. f.). Simple 40106 oscillator with diode-based CV input [Archivo PDF]. https://electro-music.com/forum/phpbb-files/rmr_001__simple_40106_oscillator_with_diode_based_cv_input_905.pdf
+* Evil Turtle Productions. (s. f.). Analog FM Drone/Kick Synth. https://www.evilturtle.nl/projects/fm-drone-synth
+* Keim, R. (2020). Op-Amp Basics: Introduction to the Operational Amplifier. All About Circuits. https://www.allaboutcircuits.com/video-tutorials/op-amp-basics-introduction-to-the-operational-amplifier/
+* Klein, M., & Erica Synths. (2021). mki x es.edu VCO manual [Archivo PDF]. Erica Synths.
+* Lis A. (2022). 40106 dual oscillator. SFCS: Synthfox Custom Stuff. https://sfcs.neocities.org/module/SFP21/
+* Williams, E. (2015). Logic noise: Sweet, sweet oscillator sounds. Hackaday. https://hackaday.com/2015/02/04/logic-noise-sweet-sweet-oscillator-sounds/
 
 
 [^1]: Más información sobre el Ixtle y su uso en el Valle del Mezquital: https://tesiunamdocumentos.dgb.unam.mx/ptd2013/octubre/0702151/Index.html

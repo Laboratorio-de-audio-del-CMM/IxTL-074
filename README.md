@@ -17,7 +17,7 @@ La frecuencia y amplitud de cada oscilador son determinadas por controles dedica
 Cada oscilador cuenta con:
 * **Tres salidas:**
     
-    Correspondientes a la frecuencia y a la amplitud establecida con los controles dedicados. Cada salida pueden funcionar como:
+    Correspondientes a la frecuencia y a la amplitud establecida con los controles dedicados. Cada salida puede funcionar como:
     * señal de audio, al conectarse a la mezcladora integrada
     * señal moduladora, al conectarse a las entradas de otro oscilador, o a su propia entrada
 
@@ -71,7 +71,7 @@ La lista completa de materiales necesarios para la construcción del IxTL-074 es
     * Barril jack de 5.5mm x 2.1mm
     * Fuente de alimentación de 9v con salida jack de punta positiva de 5.5mm x 2.1mm (se recomienda una pila de 9v con broche)
 
-Los headers pueden sustituirse con una tira larga (que usualmente es más fácil de conseguir) y ser recortados posteriormente. 
+Los headers pueden sustituirse con una tira larga (que usualmente es más fácil de conseguir) y ser recortados posteriormente.
 
 El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
 
@@ -102,14 +102,14 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 
 * #### Investigación, desarrollo y diseño de tarjeta de circuito impreso:
     Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
-* #### Investigación, asesoramiento y supervisión: 
-    Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora. 
+* #### Investigación, asesoramiento y supervisión del proyecto:
+    Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora.
 
 ### Agradecimientos
 * **Centro Multimedia** del Centro Nacional de las Artes.
 * **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
 * [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
-* Productores cafetaleros de Veracruz.
+* Productores cafetaleros de Veracruz y Chiapas.
 
 ## Documentación consultada
 * Collins N. (2020). Handmade electronic music. New York: Routledge Taylor & Francis Group.
@@ -122,4 +122,4 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 
 
 [^1]: Más información sobre el Ixtle y su uso en el Valle del Mezquital: https://tesiunamdocumentos.dgb.unam.mx/ptd2013/octubre/0702151/Index.html
-[^2]: La modulación de frecuencia es un método de síntesis sonora. Consiste en variar (modular) la frecuencia de una señal (denominada portadora) con respecto a una otra (denominada moduladora). El rango de la modulación de la frecuencia de la señal portadora será proporcional a la amplitud de la señal moduladora. La velocidad de la modulación de la frecuencia de la señal portadora será proporcional a la frecuencia de la señal moduladora.
+[^2]: La modulación de frecuencia es un método de síntesis sonora. Consiste en variar (modular) la frecuencia de una señal (denominada portadora) con respecto a otra (denominada moduladora). El rango de la modulación de la frecuencia de la señal portadora será proporcional a la amplitud de la señal moduladora. La velocidad de la modulación de la frecuencia de la señal portadora será proporcional a la frecuencia de la señal moduladora.

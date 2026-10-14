@@ -35,7 +35,7 @@ El sintetizador funciona con una fuente de alimentación de 9v con punta positiv
 La salida de audio integrada duplica una señal monofónica de audio (doble mono).
 
 ## Esquemático 
-
+<img width="5846" height="4134" alt="IxTL-074_JPEG_v 1 0 0" src="https://github.com/user-attachments/assets/0dbc00f7-55a3-4c42-8d35-56736e94ea89" />
 
 (Hacer click para ir al archivo PDF)
 

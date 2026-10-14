@@ -34,68 +34,24 @@ El sintetizador funciona con una fuente de alimentación de 9v con punta positiv
 
 La salida de audio integrada duplica una señal monofónica de audio (doble mono).
 
-## Esquemático 
-<img width="5846" height="4134" alt="IxTL-074_JPEG_v 1 0 0" src="https://github.com/user-attachments/assets/0dbc00f7-55a3-4c42-8d35-56736e94ea89" />
-
-(Hacer click para ir al archivo PDF)
-
-## Lista de materiales
-
-La lista completa de materiales necesarios para la construcción del IxTL-074 es:
-
-* **Circuitos integrados**
-    * Inversor Schmitt trigger 40106 `x1`
-    * Amplificador operacional TL-074 `x1`
-
-* **Potenciómetros**
-    * 10k `x1`
-    * 50k `x6`
-    * 100k `x2`
-
-* **Capacitores electrolíticos**
-    * 0.22μF `x1`
-    * 1μF `x2`
-    * 4.7μF `x1`
-    * 10μF `x1`
-
-* **Capacitores cerámicos**
-    * 100nF `x5`
-
-* **Resistencias**
-    * 470 `x3`
-    * 1k `x6`
-    * 10k `x4`
-    * 100k `x2`
-
-* **Otros componentes**
-    * Transistor 2N394 `x1`
-    * LED de 5mm `x1`
-    * Header hembra de 2x2 `x1`
-    * Headers hembra de 2x3 `x4`
-    * Switch SPDT `x1`
-    * Conector jack hembra de 3.5mm SJ1-3515 `x1`
-    * Barril jack de 5.5mm x 2.1mm `x1`
-    * Fuente de alimentación de 9v con salida jack de punta positiva de 5.5mm x 2.1mm (se recomienda una pila de 9v con broche) `x1`
-
-Se recomienda el uso de zócalos DIP de 14 pines para ambos circuitos integrados.
-
-Los headers pueden sustituirse con una tira larga (que usualmente es más fácil de conseguir) y ser recortados posteriormente.
-
-El conector de jack de 3.5mm también puede ser sustituido por un conector más fácil de conseguir o que se adapte mejor a las necesidades de quien lo construya.
-
-## Apoyo a la documentación 
-El repositorio posee dos carpetas y un archivo adicional de apoyo a la documentación:
-
-1. Carpeta _**Esquemático**_:
-
-    Contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad .kicad_sch
-
-2. Carpeta _**Archivos de Fabricación**_:
+## Esquemático
+<a href="Esquemático/IxTL-074_v.1.0.0.pdf"><img width="5846" height="4134" alt="IxTL-074_JPEG_v 1 0 0" src="https://github.com/user-attachments/assets/0dbc00f7-55a3-4c42-8d35-56736e94ea89" /></a>
 
 
-3. Archivo _**Diseño.md**_
+## Documentación 
+El repositorio posee una carpeta y dos archivos de apoyo a la documentación:
 
-    Contiene una descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
+1. Carpeta [_**Esquemático**_](Esquemático)
+
+    Contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad _.kicad_sch_
+
+2. Archivo [_**lista-de-piezas-y-referencias.pdf**_](lista-de-piezas-y-referencias.pdf)
+
+    Lista detallada de piezas, cantidades y su referencia en el esquemático y la serigrafía de la placa de circuito impreso.
+
+3. Archivo [_**diseño.md**_](diseño.md)
+
+    Descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
 
 ## Licencia
 En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hardware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
@@ -111,7 +67,7 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 
 ## Créditos
 
-* #### Investigación, desarrollo y diseño de tarjeta de circuito impreso:
+* #### Investigación, desarrollo, diseño de tarjeta de circuito impreso:
     Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
 * #### Investigación, asesoramiento y supervisión del proyecto:
     Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora.

@@ -1,5 +1,9 @@
 # IxTL-074
-<img width="1197" height="798" alt="IxTL-074" src="https://github.com/user-attachments/assets/f0faed1b-24b6-48e4-8dab-6df4fa0002af" />
+<img width="2764" height="1589" alt="IMG_3580 copia" src="https://github.com/user-attachments/assets/387dcf2d-a052-4936-80d5-69bd0890ddc7" />
+
+<img width="3024" height="4032" alt="IMG_3504" src="https://github.com/user-attachments/assets/8c8e8c67-cf4a-4a8e-9c1f-e11158738296" />
+
+<img width="3000" height="3336" alt="IMG_3519 copia" src="https://github.com/user-attachments/assets/eb4f5485-d7bf-42f3-8d24-669f75c97459" />
 
 El IxTL-074 es un sintetizador DIY de frecuencia modulada (FM) desarrollado en el Laboratorio de Experimentación Sonora del Centro Multimedia entre agosto y octubre del 2026.
 

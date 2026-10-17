@@ -8,9 +8,13 @@ El funcionamiento a nivel electrónico del IxTL-074 se compone de 5 etapas princ
 * [Mezcladora](#mezcladora)
 
 ## Alimentación 
+<img width="1138" height="423" alt="image" src="https://github.com/user-attachments/assets/ff4cf747-39e3-406f-a8fc-2f5118a39cda" />
+
 El circuito funciona con una fuente de alimentación de 9V. Se enciende y apaga por un medio de un interruptor SPDT `SW1`. 
 
 ## Oscilación
+<img width="1591" height="677" alt="image-1" src="https://github.com/user-attachments/assets/699d645e-b0fa-471c-926a-a7213aa63c0d" />
+
 La oscilación de onda cuadrada del **IxTL-074** se genera mediante la retroalimentación del circuito integrado 40106 `U1`, un inversor Schmitt trigger séxtuple.
 
 Un **Inversor Schmitt Trigger** es un componente electrónico que combina dos funciones:
@@ -33,12 +37,15 @@ Cada circuito de oscilación incorpora además un capacitor y una resistencia.
     Con la incorporación de resistencias variables (potenciómetros) es posible ajustar la frecuencia del oscilador según nuestras necesidades creativas.
 
 ## Almacenamiento en buffer
+<img width="1416" height="571" alt="image-2" src="https://github.com/user-attachments/assets/3fd16044-30b7-4f54-836f-07046af922d1" />
 
 Para mantener la estabilidad de las frecuencias generadas por los osciladores, se utiliza el circuito integrado `TL-074`, que contiene cuatro amplificadores operacionales.
 
 Cada amplificador operacional está configurado como un buffer de almacenamiento que evita que los circuitos de etapas posteriores (como la mezcladora) alteren el funcionamiento del oscilador, previniendo cambios no deseados de frecuencia.
 
 ## Salidas y modulación
+
+<img width="1180" height="406" alt="image-3" src="https://github.com/user-attachments/assets/63df5289-60a2-458f-86ef-bd58ffc5d3dc" />
 
 Potenciómetros de 50 kΩ (`R3`, `R7`, `R11`, `R15`) regulan la amplitud de cada oscilador.
 
@@ -47,6 +54,9 @@ Los headers hembra (`J1`, `J2`, `J3`, `J4`) permiten la interconexión de señal
 La etapa de modulación incorpora capacitores (`C2`, `C4`, `C6`, `C8`) de 100 nF que eliminan el componente de corriente directa (DC) de la onda cuadrada, permitiendo una mejor modulación. 
 
 ## Mezcladora
+
+<img width="1521" height="654" alt="Captura de pantalla 2026-10-17 a la(s) 1 00 21" src="https://github.com/user-attachments/assets/cedf9b9f-fe87-4261-9b4d-c77a98d004a3" />
+
 La etapa de mezcla suma las señales de los 4 osciladores en una sola señal de salida estandarizada de audio.
 
 El potenciómetro `R21` atenúa el nivel general de la mezcla antes de enviarla a la salida.

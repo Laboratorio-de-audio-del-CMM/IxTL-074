@@ -43,12 +43,11 @@ La salida de audio integrada duplica una señal monofónica de audio (doble mono
 
 
 ## Documentación 
-El repositorio posee una carpeta y dos archivos de apoyo a la documentación:
+El repositorio posee tres archivos y dos carpetas de apoyo a la documentación:
 
-1. Carpeta [_**Esquemático**_](Esquemático)
+1. Archivo [_**esquemático.pdf**_](esquemático.pdf)
 
-    Contiene el diagrama esquemático de la versión 1.0.0 del sintetizador en versión pdf y en archivo editable de KiCad _.kicad_sch_
-
+    Diagrama esquemático de la versión 1.0.0 del sintetizador en formato _pdf_ para su consulta en alta resolución.
 2. Archivo [_**lista-de-piezas-y-referencias.pdf**_](lista-de-piezas-y-referencias.pdf)
 
     Lista detallada de piezas, cantidades y su referencia en el esquemático y la serigrafía de la placa de circuito impreso.
@@ -56,6 +55,15 @@ El repositorio posee una carpeta y dos archivos de apoyo a la documentación:
 3. Archivo [_**diseño.md**_](diseño.md)
 
     Descripción general del diseño electrónico del sintetizador para quien desee profundizar en su funcionamiento.
+
+4. Carpeta [**proyecto-kicad**](proyecto-kicad)
+
+    Archivos de diseño electrónico incluyendo esquemático (_.kicad_sch_), diseño de tarjeta de circuito impreso (_.kicad_pcb_) y proyecto (_.kicad_pro_).
+   
+5. Carpeta [**archivos-de-fabricacion**](archivos-de-fabricacion)
+
+    Contiene los archivos gerber de diseño de tarjeta de circuito impreso usados para la fabricación de la placa.
+
 
 ## Licencia
 En concordancia a los valores del conocimiento abierto, que promueven un acceso justo y equitativo a la información, la investigación y la producción de aprendizaje, el presente hardware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**, con las siguientes implicaciones:
@@ -78,6 +86,7 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 
 ### Agradecimientos
 * **Centro Multimedia** del Centro Nacional de las Artes.
+* **Oscar Márquez y Rogelio**, Servicio Social del Laboratorio de Experimentación Sonora. 
 * **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
 * [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
 * Productores cafetaleros de Veracruz y Chiapas.

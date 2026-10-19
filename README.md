@@ -5,7 +5,7 @@
 
 <img width="3000" height="3336" alt="IMG_3519 copia" src="https://github.com/user-attachments/assets/eb4f5485-d7bf-42f3-8d24-669f75c97459" />
 
-El IxTL-074 es un sintetizador DIY de frecuencia modulada (FM) desarrollado en el Laboratorio de Experimentación Sonora del Centro Multimedia entre agosto y octubre del 2026.
+El IxTL-074 es un sintetizador DIY de frecuencia modulada (FM) desarrollado en el [Laboratorio de Experimentación Sonora del Centro Multimedia](https://www.instagram.com/labaudiocmm) entre agosto y octubre del 2026.
 
 Su nombre proviene de un juego de palabras derivado del nombre de la fibra vegetal extraída de algunas especies de maguey (Ixtle[^1]) y uno de los componentes del sintetizador (el amplificador operacional TL-074). Busca trazar un paralelismo entre el tejido material de fibras vegetales y el sonido derivado de las interconexiones entre operadores de la síntesis FM.
 
@@ -86,7 +86,7 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 
 ### Agradecimientos
 * [**Centro Multimedia**](https://cmm.cenart.gob.mx/) del Centro Nacional de las Artes.
-* **Oscar Márquez y Rogelio**, Servicio Social del Laboratorio de Experimentación Sonora. 
+* **Oscar Márquez y Rogelio Granados**, Servicio Social del Laboratorio de Experimentación Sonora. 
 * **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
 * [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
 * Productores cafetaleros de Veracruz y Chiapas.

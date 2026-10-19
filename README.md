@@ -39,7 +39,7 @@ El sintetizador funciona con una fuente de alimentación de 9v con punta positiv
 La salida de audio integrada duplica una señal monofónica de audio (doble mono).
 
 ## Esquemático
-<a href="Esquemático/IxTL-074_v.1.0.0.pdf"><img width="5846" height="4134" alt="IxTL-074_JPEG_v 1 0 0" src="https://github.com/user-attachments/assets/0dbc00f7-55a3-4c42-8d35-56736e94ea89" /></a>
+<a href="esquemático.pdf"><img width="5846" height="4134" alt="IxTL-074_JPEG_v 1 0 0" src="https://github.com/user-attachments/assets/0dbc00f7-55a3-4c42-8d35-56736e94ea89" /></a>
 
 
 ## Documentación 
@@ -80,12 +80,12 @@ Para leer el texto legal completo y detallado, consulta el archivo [LICENCE](LIC
 ## Créditos
 
 * #### Investigación, desarrollo, diseño de tarjeta de circuito impreso:
-    Francisco Ibrahim :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
+    [Francisco Ibrahim](https://www.instagram.com/mxxdbabgkqhkig9w0/) :shipit:, Colaborador del Laboratorio de Experimentación Sonora.
 * #### Investigación, asesoramiento y supervisión del proyecto:
     Gonzalo T. Alonso, Jefe del Laboratorio de Experimentación Sonora.
 
 ### Agradecimientos
-* **Centro Multimedia** del Centro Nacional de las Artes.
+* [**Centro Multimedia**](https://cmm.cenart.gob.mx/) del Centro Nacional de las Artes.
 * **Oscar Márquez y Rogelio**, Servicio Social del Laboratorio de Experimentación Sonora. 
 * **Juan Galindo**, Jefe del Laboratorio de Robótica y Sistemas Complejos.
 * [**Proyecto KiCad**](https://www.kicad.org/) de software libre para la automatización del diseño electrónico.
